@@ -98,8 +98,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 				<select name="lang" id="lang_choose">
 					<option value="Cpp">C++</option>
 					<option value="C">C</option>
-                    <option value="Python">Python3</option>
-                    <option value="Java">Java</option>
+                   			<option value="Python">Python3</option>
+                    			<option value="Java">Java</option>
 				<?php echo $choice;?></select>
 				<button type="submit" id="run">Run</button>
 			</div>
